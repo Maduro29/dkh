@@ -1,0 +1,29 @@
+.footer-container {
+    padding-left: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(182, 177, 177, 0.322);
+    padding-top: 10px;
+
+    .footer-content {
+        display: flex;
+        padding: 0 60px;
+        justify-content: space-between;
+        gap: 50px;
+
+        .footer-content-first {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+
+            .footer-count {
+                color: red;
+            }
+        }
+
+        .footer-content-second {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

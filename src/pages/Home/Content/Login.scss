@@ -1,0 +1,37 @@
+.login-container {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    .login-content {
+        border: 1px solid rgba(134, 129, 129, 0.259);
+        padding: 10px;
+
+        .login-content-first {
+            .form-title {
+                font-weight: 600px;
+                color: rgb(19, 145, 19);
+                width: 100%;
+                font-size: 18px;
+                margin-bottom: 10px;
+
+                .form-title-text {
+                    padding: 0 0;
+                    width: 100%;
+                }
+            }
+
+            .login-input {
+                font-size: 14px;
+                margin: 5px 0;
+            }
+
+            .btn-login {
+                background-color: rgb(19, 145, 19);
+                color: white;
+                font-size: 14px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

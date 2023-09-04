@@ -1,0 +1,14 @@
+.school-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff99;
+
+    .school-content {
+        padding: 5px 10px;
+
+        .school-content-title {
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+}
